@@ -1,0 +1,7 @@
+<?php
+$files=$_FILES["file"];
+move_uploaded_file($file['tmp_name'], "uploads/" . $file["name"]);
+header("location : ../index.php")
+
+
+?>
